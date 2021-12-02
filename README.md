@@ -323,3 +323,5 @@ admin_access.log
 # Git save credential  
 git config --global credential.helper store  
 
+#Add service to docker stack  
+docker service create -name statefulservice --network my-stack_default reponame/imagename  
