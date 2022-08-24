@@ -329,3 +329,13 @@ git config --global credential.helper store
 
 #Add service to docker stack  
 docker service create -name statefulservice --network my-stack_default reponame/imagename  
+
+#Springboot command  
+Maven:  
+mvn clean install  
+./mvnw spring-boot:run  
+Gradle  
+gradle clean build  
+./gradlew bootRun  
+
+java –jar <JARFILE>   
