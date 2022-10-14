@@ -339,3 +339,6 @@ gradle clean build
 ./gradlew bootRun  
 
 java –jar <JARFILE>   
+
+#macos kill open port. 
+sudo lsof -t -i tcp:yourPortNumber | sudo xargs kill  
