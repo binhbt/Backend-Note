@@ -342,3 +342,7 @@ java –jar <JARFILE>
 
 #macos kill open port.   
 sudo lsof -t -i tcp:yourPortNumber | sudo xargs kill  
+
+## Fix Module not found. 
+$ python3 -m venv venv
+$ source venv/bin/activate. 
