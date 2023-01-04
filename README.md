@@ -344,5 +344,5 @@ java –jar <JARFILE>
 sudo lsof -t -i tcp:yourPortNumber | sudo xargs kill  
 
 ## Fix Module not found. 
-$ python3 -m venv venv
+$ python3 -m venv venv. 
 $ source venv/bin/activate. 
